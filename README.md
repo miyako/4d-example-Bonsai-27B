@@ -1,5 +1,7 @@
 # 4d-example-Bonsai-27B
 
+<img width="600" height="auto" alt="Untitled" src="https://github.com/user-attachments/assets/54c36363-be50-4862-9bbc-e5984e1e3446" />
+
 ```
 Thinking Process:
 
