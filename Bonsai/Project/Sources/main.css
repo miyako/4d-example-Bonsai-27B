@@ -1,0 +1,80 @@
+input.prompt {
+	stroke: automatic;
+	font-size: 20;
+}
+
+picture.mistral {
+	picture: url("Images/mistral.svg");
+}
+
+picture.openai {
+	picture: url("Images/openai.svg");
+}
+
+picture.claude {
+	picture: url("Images/claude.svg");
+}
+
+picture.gemini {
+	picture: url("Images/gemini.svg");
+}
+
+picture.groq {
+	picture: url("Images/groq.svg");
+}
+
+picture.alibaba {
+	picture: url("Images/alibaba.svg");
+}
+
+picture.openrouter {
+	picture: url("Images/openrouter.svg");
+}
+
+picture.cohere {
+	picture: url("Images/cohere.svg");
+}
+
+picture.deepinfra {
+	picture: url("Images/deepinfra.svg");
+}
+
+picture.nvidia {
+	picture: url("Images/nvidia.svg");
+}
+
+picture.perplexity {
+	picture: url("Images/perplexity.svg");
+}
+
+picture.huggingface {
+	picture: url("Images/huggingface.svg");
+}
+
+picture.fireworks {
+	picture: url("Images/fireworks.svg");
+}
+
+picture.xai {
+	picture: url("Images/xai.svg");
+}
+
+picture.deepseek {
+	picture: url("Images/deepseek.svg");
+}
+
+picture.anyscale {
+	picture: url("Images/anyscale.svg");
+}
+
+picture.cometapi {
+	picture: url("Images/cometapi.svg");
+}
+
+picture.azure {
+	picture: url("Images/azure.svg");
+}
+
+picture.moonshot {
+	picture: url("Images/moonshot.svg");
+}
