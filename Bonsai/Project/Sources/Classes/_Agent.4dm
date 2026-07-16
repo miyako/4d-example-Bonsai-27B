@@ -156,8 +156,8 @@ Function onEventStream($chatCompletionsResult : cs:C1710.AIKit.OpenAIChatComplet
 				If ($chatCompletionsResult.choice.delta.text#"")
 					
 					If (This:C1470.reasoning_content#"")
-						This:C1470.reasoning_content:=""
-						This:C1470.ChatResult:=This:C1470.reasoning_content
+						//This.reasoning_content:=""
+						This:C1470.ChatResult:=""  //This.reasoning_content
 					End if 
 					
 					This:C1470.ChatResult+=$chatCompletionsResult.choice.delta.text
