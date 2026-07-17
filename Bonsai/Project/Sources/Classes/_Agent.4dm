@@ -12,6 +12,7 @@ property stream : Boolean
 property image : Picture
 property helper : cs:C1710.AIKit.OpenAIVisionHelper
 property reasoning_content : Text
+property _reasoning_content : Text
 
 Class constructor($baseURL : Text; \
 $resultObjectName : Text; \
@@ -156,8 +157,9 @@ Function onEventStream($chatCompletionsResult : cs:C1710.AIKit.OpenAIChatComplet
 				If ($chatCompletionsResult.choice.delta.text#"")
 					
 					If (This:C1470.reasoning_content#"")
-						//This.reasoning_content:=""
-						This:C1470.ChatResult:=""  //This.reasoning_content
+						This:C1470._reasoning_content:=This:C1470.reasoning_content
+						This:C1470.reasoning_content:=""
+						This:C1470.ChatResult:=""
 					End if 
 					
 					This:C1470.ChatResult+=$chatCompletionsResult.choice.delta.text
