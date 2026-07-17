@@ -1,6 +1,8 @@
 # 4d-example-Bonsai-27B
 
-Model thinks a lot.
+<img width="500" height="auto" alt="Screenshot 2026-07-17 at 13 20 28" src="https://github.com/user-attachments/assets/e28231b7-81e6-452d-b60f-6b6780bb90bb" />
+
+Model thinks a lot before generating any response.
 
 ```
 Here's a thinking process:
